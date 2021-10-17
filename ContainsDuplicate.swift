@@ -2,11 +2,11 @@
 class Solution {
     func containsDuplicate(_ nums: [Int]) -> Bool {
         //원래 푼 거 1576ms
-        var array = [Int]()
+        var removedDuplicate = [Int]()
         
         for i in nums {
-            if !array.contains(i) {
-                array.append(i)
+            if !removedDuplicate.contains(i) {
+                removedDuplicate.append(i)
             }
         }
         
