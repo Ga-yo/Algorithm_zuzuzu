@@ -1,6 +1,4 @@
 class Solution {
-    var count = 1
-    
     func maxDepth(_ root: TreeNode?) -> Int {
     //첫 시도
 //         while(rTree?.right?.val != nil || lTree?.left?.val != nil) {
